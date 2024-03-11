@@ -48,7 +48,7 @@ const displayAverageSalary = function(employeesArray) {
   let avgWage = average/employeesArray.length;
   let staffsize = employeesArray.length;
 
-  console.log("Our average employee salary between our " + staffsize + " staff is $" + parseFloat(avgWage) + ".");
+  console.log("Our average employee salary between our " + staffsize + " staff is $" + avgWage + ".");
 }
 
 // Select a random employee
